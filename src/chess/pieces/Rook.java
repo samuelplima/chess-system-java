@@ -60,9 +60,7 @@ public class Rook extends ChessPiece{
 		}
 		if(getBoard().positionExists(p) && isThereOponnentPiece(p)) {
 			mat[p.getRow()][p.getColumn()] = true;
-		}
-		
-		
+		}		
 		
 		return mat;
 	}
